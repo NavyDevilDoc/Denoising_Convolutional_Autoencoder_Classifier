@@ -125,7 +125,7 @@ def load_data(dataset_name):
     return x_train, y_train, x_test, y_test, class_names
 
 
-# Select the dataset to be worked on
+# Select the dataset; either "fashion_mnist" or "cifar10"
 dataset_name = "fashion_mnist"
 
 # Split the data
